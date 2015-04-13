@@ -1,3 +1,16 @@
+# Installation
+
+Clone the git repo, then:
+
+```
+make
+sudo make install
+```
+After cloning cd into the directory it made and then `make install`
+Launch it by putting "exec i3" in your ~/.xinitrc file.
+
+You can adjust the gap size by putting "gap_size 16" (too big) in the i3 configuration the bigger the number, the bigger the gap.
+
 i3 - Unofficial Gaps Branch
 ===========================
 
